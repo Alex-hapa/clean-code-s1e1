@@ -19,6 +19,44 @@
               </li>
             </ul> 
           </section>
+          <section class="todo main__todo">
+            <h3 class="caption todo__caption">Todo</h3>
+            <ul class="list todo__list">
+              <li class="item list__item">
+                <input class="item__input item__checkbox" type="checkbox" />
+                <label class="item__label">Pay Bills</label
+                ><input
+                  class="item__input item__text item__text_display_none"
+                  type="text"
+                />
+                <button class="item__button item__button_edit">Edit</button>
+                <button class="button-delete item__button item__button_delete">
+                  <img
+                    class="button-delete__image"
+                    src="remove.svg"
+                    alt="sign for remove"
+                  />
+                </button>
+              </li>
+              <li class="item list__item list__item_edit">
+                <input class="item__input item__checkbox" type="checkbox" />
+                <label class="item__label item__label_edit">Go Shopping</label
+                ><input
+                  class="item__input item__text item__text_edit"
+                  type="text"
+                  value="Go Shopping"
+                />
+                <button class="item__button item__button_edit">Save</button>
+                <button class="button-delete item__button item__button_delete">
+                  <img
+                    class="button-delete__image"
+                    src="remove.svg"
+                    alt="sign for remove"
+                  />
+                </button>
+              </li>
+            </ul>
+          </section>
       </main> 
      <script src="app.js"></script>
   </body>
